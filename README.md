@@ -1,16 +1,25 @@
+first :  npm i kishordirect7sms2
+
+let token =process.env.token(set this globally) with dotenv from D7Network in project
+
+
 getMessagestatus
 -----------------
-let token =process.env.token(set this globally)
+
 getMessagestatus(paramid,token)
 
-this function will fetch status of a message with the given request_id
+
+this library function will fetch status of a message with the given request_id
+
+
 
 
 getPrice
 -----------
 
 getPrice(token)
-this function will get all the sms rates 
+this library function will get all the sms rates 
+
 
 
 sendMessage
